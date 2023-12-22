@@ -1,0 +1,45 @@
+html {box-sizing:  border-box;}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+a {
+	display: block;
+	text-decoration: none;
+	color: inherit;
+}
+
+p a {
+	display: inline;
+	color: blue;
+	text-decoration: underline;
+}
+
+picture {
+	display: block;
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+svg {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('../../images/png/background.png');
+  background-size: cover; /* Cover the entire viewport */
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Make sure the body takes the full viewport height */
+  overflow: hidden; /* Prevent vertical scrollbar */
+}
+
