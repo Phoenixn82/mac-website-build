@@ -1,3 +1,16 @@
-p {
+p, a {
 	font-family: 'san-francisco';
+	font-size: 14px;
+}
+
+#current-time {
+    color: #fff;
+    border-radius: 8px;
+    align-items: center;
+    margin-right: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    transition: background-color .2s;
+    display: flex;
 }

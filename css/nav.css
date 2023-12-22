@@ -36,8 +36,13 @@
     align-self: stretch;
     align-items: center;
     margin-right: 0;
-    padding: 0px 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     display: flex;
+}
+
+.icon-wrapper:hover {
+    background-color: rgba(255,255,255,.1)
 }
 
 .mac-menu {
@@ -56,11 +61,29 @@
     right: 0%;
 }
 
-
-  #draggable { 
+#draggable { 
     width: 150px; 
     height: 150px; 
     padding: 0.5em;
     color: white;
     border: 2px solid white;
-    }
+}
+
+.apple-logo {
+ 
+}
+
+.nav-link {
+    color: #fff;
+    border-radius: 8px;
+    align-items: center;
+    margin-right: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    transition: background-color .2s;
+    display: flex
+}
+.nav-link. a, .nav-link p {
+    font-weight: 700
+}
