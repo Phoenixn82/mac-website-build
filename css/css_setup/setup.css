@@ -4,6 +4,12 @@ html {box-sizing:  border-box;}
 	box-sizing: inherit;
 }
 
+@font-face {
+  font-family: 'san-francisco';
+  src: url('../../fonts/SFNSDisplay-Regular.otf') format('opentype');
+}
+
+
 a {
 	display: block;
 	text-decoration: none;

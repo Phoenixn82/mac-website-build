@@ -1,6 +1,6 @@
 .dock {
     z-index: 15;
-    width: 680px;
+    width: 740px;
     background-color: rgba(255,255,255,.05);
     border-radius: 20px;
     grid-template-rows: auto;
@@ -19,6 +19,7 @@
     bottom: 1%;
     left: 0%;
     right: 0%;
+    backdrop-filter: blur(5px);
 }
 
 .dock-divider {
@@ -30,7 +31,7 @@
 }
 
 .dock-icon {
-    width: 80px;
+    width: 90px;
     height: 100%;
     color: #a3a3a3;
     flex-direction: column;
