@@ -47,3 +47,6 @@
     display: flex;
 }
 
+.dock-icon img {
+    height: 100%;
+}

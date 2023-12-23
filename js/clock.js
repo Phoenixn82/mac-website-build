@@ -26,7 +26,7 @@ function updateClock() {
     var timeString = hours + ":" + minutes + " " + meridiem;
     var dateString = dayNames[dayOfWeek] + " " + monthNames[month] + " " + day;
 
-    document.getElementById("current-time").innerHTML = dateString + "&nbsp;&nbsp;" + timeString;
+    document.getElementById("current-time").innerHTML = dateString + "&nbsp;&nbsp;&nbsp;" + timeString;
 }
 
 // Update the clock immediately and then every minute
