@@ -1,14 +1,16 @@
-p, a {
+p, a, li{
 	font-family: 'san-francisco';
-	font-size: 14px;
+	font-size: 15px;
+    color: #FFFFFF;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3); /* horizontal-offset vertical-offset blur-radius color */
+
 }
 
 #current-time {
-    color: #fff;
+    color: #FFFFFF;
     border-radius: 8px;
     align-items: center;
     margin-right: 0;
-    padding-left: 10px;
     padding-right: 10px;
     text-decoration: none;
     transition: background-color .2s;

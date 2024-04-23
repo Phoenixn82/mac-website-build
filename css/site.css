@@ -2,4 +2,4 @@
 @import"css_setup/setup.css";
 @import"typography.css";
 @import"nav.css";
-@import"dock.css";
+@import"dock.scss";
