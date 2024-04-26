@@ -3,3 +3,9 @@
 @import"typography.css";
 @import"nav.css";
 @import"dock.scss";
+@import"apps/contact.css";
+@import"apps/music.css";
+@import"apps/news.css";
+@import"apps/portfolio.css";
+@import"apps/settings.css";
+@import"small-components/min-max-buttons.css";

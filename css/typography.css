@@ -1,12 +1,24 @@
-p, a, li{
+p, a, li, h1, h2, h3{
 	font-family: 'san-francisco';
-	font-size: 15px;
-    color: #FFFFFF;
-    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3); /* horizontal-offset vertical-offset blur-radius color */
-
 }
 
-#current-time {
+p {
+    font-size: 14px;
+}
+:root {
+    --white: #FFFFFF;
+    --light-gray: #B2B3B3;
+    --dark-gray: #6A6B6B;
+}
+
+/*Nav*//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+.mac-menu p, .mac-menu a { /*navigation links and words at top of screen*/
+    font-size: 15px;
+    color: #FFFFFF;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3); 
+}
+
+#current-time { /*time at top right of screen*/
     color: #FFFFFF;
     border-radius: 8px;
     align-items: center;
@@ -15,4 +27,40 @@ p, a, li{
     text-decoration: none;
     transition: background-color .2s;
     display: flex;
+}
+
+/*Portfolio*//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+.container-wrapper  h1 { /*project title*/
+    font-weight: 500;
+    font-size: 16px;
+    margin: 4px 0px 4px 0px;   
+}
+
+.notes-list-header { /*"On My Mac, iCloud"*/
+    padding-left: 10px;
+    color: var(--light-gray);
+    font-size: 16px;
+}
+
+.notes-left-list li > div + p { /*numbers next to the category on the left side of notes */
+    color: var(--dark-gray);
+}
+
+.notes-project-list h2 { /*Project title preview*/
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.project-list-time-desc p:first-child { /*turns project description preview gray*/
+    font-weight: 500;
+}
+
+.project-list-time-desc p:last-child { /*turns project description preview gray*/
+    color: var(--dark-gray);
+    font-weight: 300;
+}
+
+.project-list-time-desc p { /*preview desc and time control*/
+    font-size: 16px;
+    line-height: 1.5em;
 }
