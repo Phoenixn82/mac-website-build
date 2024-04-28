@@ -1,0 +1,86 @@
+.min-max-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px;
+
+}
+
+.min-max-wrapper .btn {
+  width:14px;
+  height:14px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  margin: 0px 4px;
+}
+
+.min-max-wrapper .btn:before, .min-max-wrapper .btn:after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 4px;
+  opacity: 0;
+  transition: all 300ms ease-in-out;
+}
+
+.min-max-wrapper .close-btn {
+  background: #FF5D5B;
+  
+}
+
+.min-max-wrapper .min-btn {
+  background: #FFBB39;
+  
+}
+
+.min-max-wrapper .max-btn {
+  background: #00CD4E;
+  
+}
+
+/* Close btn */
+.min-max-wrapper .close-btn:before, .min-max-wrapper .close-btn:after {
+  width: 1px;
+  height: 70%;
+  background: #460100;
+}
+
+.min-max-wrapper .close-btn:before {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.min-max-wrapper .close-btn:after {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+/* min btn */
+.min-max-wrapper .min-btn:before {
+  width: 70%;
+  height: 2px;
+  background: #460100;
+}
+
+/* max btn */
+.min-max-wrapper .max-btn:before {
+  width: 50%;
+  height: 50%;
+  background: #024D0F;
+}
+
+.min-max-wrapper .max-btn:after {
+  width: 2px;
+  height: 70%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  background: #00CD4E;
+}
+
+/* Hover function */
+.min-max-wrapper .btn:hover:before, .min-max-wrapper .btn:hover:after {
+  top: 50%;
+  opacity: 1;
+}
