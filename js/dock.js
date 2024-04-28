@@ -33,7 +33,6 @@ const focus = (elem, index) => {
   }
 };
 
-
 function toggleDiv(divId) {
   var div = document.getElementById(divId);
   

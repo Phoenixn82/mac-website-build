@@ -1,42 +1,51 @@
+
 <section class="container-wrapper">
   <section class="container">
-    <div class="item item-1" >1</div>
-    <div class="item item-2" >2</div>
-    <div class="item item-3" >3</div>
-    <div class="item item-4" >
+    <div class="item item-1" id="draggableWindow"><?php include("small-components/min-max-buttons.php"); ?></div>
+    <div class="item item-2" id="draggableWindow">
+      <div class="icon-space">
+        <div class="left-icon-cluster">
+          <img src="images/svg/portfolio/top-icons/list" alt="">
+          <img src="images/svg/portfolio/top-icons/grid" alt="">
+        </div>
+        <img src="images/svg/portfolio/top-icons/trash" alt="">
+      </div>
+    </div>
+    <div class="item item-3" id="draggableWindow">3</div>
+    <div class="item item-4">
       <p class="notes-list-header">On My Mac</p>
         <ul class="notes-left-list">
           <li>
             <div>
-              <img class="" src="images/svg/small-icons/folder.svg" alt="">
+              <img class="" src="images/svg/portfolio/small-icons/folder.svg" alt="">
               <p>General</p>
              </div>
             <p>8</p>
           </li>
           <li>
             <div>
-              <img class="" src="images/svg/small-icons/book.svg" alt="">
+              <img class="" src="images/svg/portfolio/small-icons/book.svg" alt="">
               <p>Books</p>
              </div>
             <p>3</p>
           </li>
           <li>
             <div>
-              <img class="" src="images/svg/small-icons/file.svg" alt="">
+              <img class="" src="images/svg/portfolio/small-icons/file.svg" alt="">
               <p>Drafts</p>
              </div>
             <p>0</p>
           </li>
           <li>
             <div>
-              <img class="" src="images/svg/small-icons/tray.svg" alt="">
+              <img class="" src="images/svg/portfolio/small-icons/tray.svg" alt="">
               <p>Random</p>
              </div>
             <p>5</p>
           </li>
           <li>
             <div>
-              <img class="" src="images/svg/small-icons/flag.svg" alt="">
+              <img class="" src="images/svg/portfolio/small-icons/flag.svg" alt="">
               <p>Work</p>
              </div>
             <p>1</p>
@@ -46,14 +55,14 @@
        <ul class="notes-left-list">
           <li>
             <div>
-              <img class="" src="images/svg/small-icons/pages.svg" alt="">
+              <img class="" src="images/svg/portfolio/small-icons/pages.svg" alt="">
               <p>Planning</p>
              </div>
             <p>6</p>
           </li>
           <li>
             <div>
-              <img class="" src="images/svg/small-icons/list.svg" alt="">
+              <img class="" src="images/svg/portfolio/small-icons/list.svg" alt="">
               <p>Workouts</p>
              </div>
             <p>9</p>

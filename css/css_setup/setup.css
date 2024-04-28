@@ -49,3 +49,9 @@ body {
   overflow: hidden; /* Prevent vertical scrollbar */
 }
 
+.dock, .mac-menu, .item-1, .item-2, .item-3, .item-4, .item-5  {
+	user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
