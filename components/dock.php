@@ -37,5 +37,4 @@
   <div class="content hidden" id="div-5"><?php include("components/apps/portfolio.php"); ?></div>
   <div class="content hidden" id="div-6"><?php include("components/apps/news.php"); ?></div>
   <div class="content hidden" id="div-bin"><?php include("components/apps/.php"); ?></div>
-  
 <script src="js/dock.js"></script>

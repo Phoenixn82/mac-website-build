@@ -18,7 +18,7 @@ p {
     text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3); 
 }
 
-#current-time { /*time at top right of screen*/
+.mac-menu #current-time { /*time at top right of screen*/
     color: #FFFFFF;
     border-radius: 8px;
     align-items: center;

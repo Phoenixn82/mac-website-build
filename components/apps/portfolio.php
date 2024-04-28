@@ -1,17 +1,33 @@
-
 <section class="container-wrapper">
   <section class="container">
     <div class="item item-1" id="draggableWindow"><?php include("small-components/min-max-buttons.php"); ?></div>
     <div class="item item-2" id="draggableWindow">
       <div class="icon-space">
         <div class="left-icon-cluster">
-          <img src="images/svg/portfolio/top-icons/list" alt="">
-          <img src="images/svg/portfolio/top-icons/grid" alt="">
+          <img src="images\svg\portfolio\top-icons\list.svg" alt="">
+          <img src="images/svg/portfolio/top-icons/grid.svg" alt="">
         </div>
-        <img src="images/svg/portfolio/top-icons/trash" alt="">
+        <img src="images/svg/portfolio/top-icons/trash.svg" alt="">
       </div>
     </div>
-    <div class="item item-3" id="draggableWindow">3</div>
+    <div class="item item-3" id="draggableWindow">
+      <div class="icon-area-1">
+        <img src="images\svg\portfolio\top-icons\edit.svg" alt="">
+        <img src="images\svg\portfolio\top-icons\typography.svg" alt="">
+        <img src="images\svg\portfolio\top-icons\checkmark-background.svg" alt="">
+        <img src="images\svg\portfolio\top-icons\table.svg" alt="">
+      </div>
+      <div class="icon-area-2">
+        <img src="images\svg\portfolio\top-icons\content-lock.svg" alt="">
+        <img src="images\svg\portfolio\top-icons\content.svg" alt="">
+        <img src="images\svg\portfolio\top-icons\user-plus.svg" alt="">
+        <img src="images\svg\portfolio\top-icons\export.svg" alt="">
+      </div>
+      <div class="icon-area-3">
+        <img src="images\svg\portfolio\top-icons\2-right-arrows.svg" alt="">
+        <img src="images\svg\portfolio\top-icons\search.svg" alt="">
+      </div>            
+    </div>
     <div class="item item-4">
       <p class="notes-list-header">On My Mac</p>
         <ul class="notes-left-list">
@@ -109,7 +125,7 @@
         </ul>
     </div>
     <div class="item item-6" >
-      <p class="project-time")>21 December at 12:35 PM</p>
+      <p id="current-time"></p>
       <h1>Project Name</h1> 
       <p>Project description...Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       <ul>
@@ -121,7 +137,6 @@
         <li><p>Things that I Learned</p></li>
       </ul>
     </div>
-
   </section>
 </section>
 <script src="js/apps/portfolio.js"></script>
