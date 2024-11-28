@@ -31,6 +31,7 @@
 </head>
 
 <body>
-    <header></header>
+    <header><?php include("components/nav.php"); ?>
+</header>
     <main>
         <!-- main content -->

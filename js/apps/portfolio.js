@@ -25,3 +25,4 @@ item5ListItems.forEach(li => {
     li.classList.add('selected');
   });
 });
+

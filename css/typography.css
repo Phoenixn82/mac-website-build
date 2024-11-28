@@ -1,14 +1,32 @@
-p, a, li, h1, h2, h3{
+p, a, li, h1, h2, h3, h4{
 	font-family: 'san-francisco';
 }
 
-p {
-    font-size: 14px;
+h1 {
+    font-size: 35px;
 }
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
 :root {
     --white: #FFFFFF;
-    --light-gray: #B2B3B3;
-    --dark-gray: #6A6B6B;
+    --light-grey: #B2B3B3;
+    --dark-grey: #6A6B6B;
 }
 
 /*Nav*//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
@@ -30,37 +48,4 @@ p {
 }
 
 /*Portfolio*//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
-.container-wrapper  h1 { /*project title*/
-    font-weight: 500;
-    font-size: 16px;
-    margin: 4px 0px 4px 0px;   
-}
 
-.notes-list-header { /*"On My Mac, iCloud"*/
-    padding-left: 10px;
-    color: var(--light-gray);
-    font-size: 16px;
-}
-
-.notes-left-list li > div + p { /*numbers next to the category on the left side of notes */
-    color: var(--dark-gray);
-}
-
-.notes-project-list h2 { /*Project title preview*/
-    font-weight: 500;
-    font-size: 18px;
-}
-
-.project-list-time-desc p:first-child { /*turns project description preview gray*/
-    font-weight: 500;
-}
-
-.project-list-time-desc p:last-child { /*turns project description preview gray*/
-    color: var(--dark-gray);
-    font-weight: 300;
-}
-
-.project-list-time-desc p { /*preview desc and time control*/
-    font-size: 16px;
-    line-height: 1.5em;
-}
